@@ -1,0 +1,1 @@
+SELECT * from `noted-computing-279322.halo_1_1_lazurdeksa.magento_sales_target`
