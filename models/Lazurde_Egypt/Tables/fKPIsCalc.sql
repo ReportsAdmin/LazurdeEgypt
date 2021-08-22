@@ -33,7 +33,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -63,7 +63,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -93,7 +93,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='spend' then prevyearvalue else null end ) spend_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -123,7 +123,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='New_customers' then prevyearvalue else null end ) New_customers_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -153,7 +153,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Productviews' then prevyearvalue else null end ) Productviews_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -183,7 +183,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Addstocart' then prevyearvalue else null end ) Addstocart_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -213,7 +213,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Checkout' then prevyearvalue else null end ) Checkout_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -243,7 +243,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Checkout' then prevyearvalue else null end ) Checkout_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -273,7 +273,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Shipping' then prevyearvalue else null end ) Shipping_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -303,7 +303,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='PaymentClick' then prevyearvalue else null end ) PaymentClick_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -333,7 +333,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -363,7 +363,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Paid_sessions' then prevyearvalue else null end ) Paid_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -393,7 +393,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Non_Paid_sessions' then prevyearvalue else null end ) Non_Paid_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -423,7 +423,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='NonDiscountedSales' then prevyearvalue else null end ) NonDiscountedSales_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -453,7 +453,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Transactions' then prevyearvalue else null end ) Transactions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -483,7 +483,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Transactions_F' then prevyearvalue else null end ) Transactions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -513,7 +513,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_F' then prevyearvalue else null end ) Sessions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -543,7 +543,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Spend_F' then prevyearvalue else null end ) Spend_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -573,7 +573,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Impressions_F' then prevyearvalue else null end ) Impressions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -603,7 +603,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_F' then prevyearvalue else null end ) Sessions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -633,7 +633,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Adclicks_F' then prevyearvalue else null end ) Adclicks_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -663,7 +663,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_F' then prevyearvalue else null end ) Sessions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -693,7 +693,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Transactions_F' then prevyearvalue else null end ) Transactions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -723,7 +723,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_F' then prevyearvalue else null end ) Sessions_F_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -753,7 +753,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Transactions_G' then prevyearvalue else null end ) Transactions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -783,7 +783,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_G' then prevyearvalue else null end ) Sessions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -813,7 +813,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Spend_G' then prevyearvalue else null end ) Spend_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -843,7 +843,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Impressions_G' then prevyearvalue else null end ) Impressions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -873,7 +873,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_G' then prevyearvalue else null end ) Sessions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -903,7 +903,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Adclicks_G' then prevyearvalue else null end ) Adclicks_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -933,7 +933,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_G' then prevyearvalue else null end ) Sessions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -963,7 +963,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Transactions_G' then prevyearvalue else null end ) Transactions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -993,7 +993,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Sessions_G' then prevyearvalue else null end ) Sessions_G_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1023,7 +1023,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='NetRevenue' then prevyearvalue else null end ) NetRevenue_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1053,7 +1053,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1083,7 +1083,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1113,7 +1113,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_product_quantity_auth' then prevyearvalue else null end ) total_product_quantity_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1143,7 +1143,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='NetRevenue' then prevyearvalue else null end ) NetRevenue_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1173,7 +1173,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_product_quantity' then prevyearvalue else null end ) total_product_quantity_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1203,7 +1203,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='New_Customer_Orders' then prevyearvalue else null end ) New_Customer_Orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1233,7 +1233,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Existing_Customer_Orders' then prevyearvalue else null end ) Existing_Customer_Orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1263,7 +1263,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='GrossRevenue' then prevyearvalue else null end ) GrossRevenue_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1293,7 +1293,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='GrossRevenue' then prevyearvalue else null end ) GrossRevenue_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1323,7 +1323,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_product_quantity_auth' then prevyearvalue else null end ) total_product_quantity_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1353,7 +1353,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Impressions' then prevyearvalue else null end ) Impressions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1383,7 +1383,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='ProductDetailViews' then prevyearvalue else null end ) ProductDetailViews_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1413,7 +1413,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='ProductDetailViews' then prevyearvalue else null end ) ProductDetailViews_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1443,7 +1443,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='AddstocartPage' then prevyearvalue else null end ) AddstocartPage_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1473,7 +1473,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='LogginPage' then prevyearvalue else null end ) LogginPage_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1503,7 +1503,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='ShippingPage' then prevyearvalue else null end ) ShippingPage_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1533,7 +1533,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='PaymentPage' then prevyearvalue else null end ) PaymentPage_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1563,7 +1563,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1593,7 +1593,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1623,7 +1623,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='LP_Lan_Sessions' then prevyearvalue else null end ) LP_Lan_Sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1653,7 +1653,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='LP_Lan_Sessions' then prevyearvalue else null end ) LP_Lan_Sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1683,7 +1683,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='H_Lan_Sessions' then prevyearvalue else null end ) H_Lan_Sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1713,7 +1713,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='H_Lan_transactions' then prevyearvalue else null end ) H_Lan_transactions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1743,7 +1743,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='P_Sessions' then prevyearvalue else null end ) P_Sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1773,7 +1773,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='P_Sessions' then prevyearvalue else null end ) P_Sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1803,7 +1803,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='H_Lan_Sessions' then prevyearvalue else null end ) H_Lan_Sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1833,7 +1833,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='H_Bounces' then prevyearvalue else null end ) H_Bounces_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1863,7 +1863,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='H_Lan_transactions' then prevyearvalue else null end ) H_Lan_transactions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1893,7 +1893,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='LP_productDetailViews' then prevyearvalue else null end ) LP_productDetailViews_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1923,7 +1923,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Checkout' then prevyearvalue else null end ) Checkout_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1953,7 +1953,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='tax_amount' then prevyearvalue else null end ) tax_amount_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -1983,7 +1983,37 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders' then prevyearvalue else null end ) orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
+group by 1,2,3,4,5,6,7,8,9
+)
+       
+                union all
+        
+
+select
+Halo_country,
+'valu_per' KPI,
+date, XTD,
+ifnull(safe_divide(valu,orders_auth),0) value,
+ifnull(safe_divide(valu_prevX,orders_auth_prevX),0) prevvalue,
+ifnull(safe_divide(valu_PrevyearsameX,orders_auth_PrevyearsameX),0) prevyearvalue,
+Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,PrevYearX_Startdate,PrevYearX_Enddate
+from(
+select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,PrevYearX_Startdate,PrevYearX_Enddate,
+       
+           max(case when KPI='valu' then Value else null end ) valu,
+           max(case when KPI='valu' then prevValue else null end ) valu_PrevX,
+           max(case when KPI='valu' then prevyearvalue else null end ) valu_PrevyearsameX
+       
+                ,
+        
+        
+           max(case when KPI='orders_auth' then Value else null end ) orders_auth,
+           max(case when KPI='orders_auth' then prevValue else null end ) orders_auth_PrevX,
+           max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
+       
+        
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2013,7 +2043,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2043,37 +2073,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
-group by 1,2,3,4,5,6,7,8,9
-)
-       
-                union all
-        
-
-select
-Halo_country,
-'tabby_per' KPI,
-date, XTD,
-ifnull(safe_divide(tabby,orders_auth),0) value,
-ifnull(safe_divide(tabby_prevX,orders_auth_prevX),0) prevvalue,
-ifnull(safe_divide(tabby_PrevyearsameX,orders_auth_PrevyearsameX),0) prevyearvalue,
-Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,PrevYearX_Startdate,PrevYearX_Enddate
-from(
-select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,PrevYearX_Startdate,PrevYearX_Enddate,
-       
-           max(case when KPI='tabby' then Value else null end ) tabby,
-           max(case when KPI='tabby' then prevValue else null end ) tabby_PrevX,
-           max(case when KPI='tabby' then prevyearvalue else null end ) tabby_PrevyearsameX
-       
-                ,
-        
-        
-           max(case when KPI='orders_auth' then Value else null end ) orders_auth,
-           max(case when KPI='orders_auth' then prevValue else null end ) orders_auth_PrevX,
-           max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
-       
-        
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2103,7 +2103,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders' then prevyearvalue else null end ) orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2133,7 +2133,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='day_level_users' then prevyearvalue else null end ) day_level_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2163,7 +2163,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2193,7 +2193,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2223,7 +2223,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2253,7 +2253,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2283,7 +2283,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_new_users' then prevyearvalue else null end ) age_new_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2313,7 +2313,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_new_users' then prevyearvalue else null end ) age_new_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2343,7 +2343,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_new_users' then prevyearvalue else null end ) age_new_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2373,7 +2373,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_new_users' then prevyearvalue else null end ) age_new_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2403,7 +2403,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='gender_new_users' then prevyearvalue else null end ) gender_new_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2433,7 +2433,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='gender_new_users' then prevyearvalue else null end ) gender_new_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2463,7 +2463,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2493,7 +2493,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2523,7 +2523,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2553,7 +2553,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2583,7 +2583,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2613,7 +2613,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2643,7 +2643,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2673,7 +2673,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2703,7 +2703,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2733,7 +2733,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2763,7 +2763,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='new_visitor_users' then prevyearvalue else null end ) new_visitor_users_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2793,7 +2793,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2823,7 +2823,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='daylevel' then prevyearvalue else null end ) daylevel_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2853,7 +2853,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='daylevel' then prevyearvalue else null end ) daylevel_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2883,7 +2883,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_auth' then prevyearvalue else null end ) orders_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2913,7 +2913,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_sessions' then prevyearvalue else null end ) age_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2943,7 +2943,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_sessions' then prevyearvalue else null end ) age_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -2973,7 +2973,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_sessions' then prevyearvalue else null end ) age_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3003,7 +3003,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='age_sessions' then prevyearvalue else null end ) age_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3033,7 +3033,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='gender_sessions' then prevyearvalue else null end ) gender_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3063,7 +3063,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='gender_sessions' then prevyearvalue else null end ) gender_sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3093,7 +3093,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3123,7 +3123,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3153,7 +3153,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3183,7 +3183,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3213,7 +3213,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3243,7 +3243,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3273,7 +3273,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3303,7 +3303,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3333,7 +3333,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='MissL10_orders' then prevyearvalue else null end ) MissL10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3363,7 +3363,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Husin10_orders' then prevyearvalue else null end ) Husin10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3393,7 +3393,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Feda10_orders' then prevyearvalue else null end ) Feda10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3423,7 +3423,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='abrar21_orders' then prevyearvalue else null end ) abrar21_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3453,7 +3453,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='feda21_orders' then prevyearvalue else null end ) feda21_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3483,7 +3483,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='roh_n2_orders' then prevyearvalue else null end ) roh_n2_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3513,7 +3513,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='omseba10_orders' then prevyearvalue else null end ) omseba10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3543,7 +3543,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='marwa10_orders' then prevyearvalue else null end ) marwa10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3573,7 +3573,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='maha_140_orders' then prevyearvalue else null end ) maha_140_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3603,7 +3603,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='shahad10_orders' then prevyearvalue else null end ) shahad10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3633,7 +3633,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='MissL10_orders' then prevyearvalue else null end ) MissL10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3663,7 +3663,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Husin10_orders' then prevyearvalue else null end ) Husin10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3693,7 +3693,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Feda10_orders' then prevyearvalue else null end ) Feda10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3723,7 +3723,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='abrar21_orders' then prevyearvalue else null end ) abrar21_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3753,7 +3753,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='feda21_orders' then prevyearvalue else null end ) feda21_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3783,7 +3783,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='roh_n2_orders' then prevyearvalue else null end ) roh_n2_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3813,7 +3813,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='omseba10_orders' then prevyearvalue else null end ) omseba10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3843,7 +3843,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='marwa10_orders' then prevyearvalue else null end ) marwa10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3873,7 +3873,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='maha_140_orders' then prevyearvalue else null end ) maha_140_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3903,7 +3903,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='shahad10_orders' then prevyearvalue else null end ) shahad10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3933,7 +3933,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3963,7 +3963,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -3993,7 +3993,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4023,7 +4023,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4053,7 +4053,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4083,7 +4083,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4113,7 +4113,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4143,7 +4143,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4173,7 +4173,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4203,7 +4203,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4233,7 +4233,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Facebook_cust_orders' then prevyearvalue else null end ) Facebook_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4263,7 +4263,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Instagram_cust_orders' then prevyearvalue else null end ) Instagram_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4293,7 +4293,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Snapchat_cust_orders' then prevyearvalue else null end ) Snapchat_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4323,7 +4323,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Adwords_cust_orders' then prevyearvalue else null end ) Adwords_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4353,7 +4353,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Roi_hunter_cust_orders' then prevyearvalue else null end ) Roi_hunter_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4383,7 +4383,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Facebook_cust_orders' then prevyearvalue else null end ) Facebook_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4413,7 +4413,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Instagram_cust_orders' then prevyearvalue else null end ) Instagram_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4443,7 +4443,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Snapchat_cust_orders' then prevyearvalue else null end ) Snapchat_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4473,7 +4473,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Adwords_cust_orders' then prevyearvalue else null end ) Adwords_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4503,7 +4503,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Roi_hunter_cust_orders' then prevyearvalue else null end ) Roi_hunter_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4533,7 +4533,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4563,7 +4563,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4593,7 +4593,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4623,7 +4623,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4653,7 +4653,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4683,7 +4683,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Facebook_cust_traffic' then prevyearvalue else null end ) Facebook_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4713,7 +4713,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Instagram_cust_traffic' then prevyearvalue else null end ) Instagram_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4743,7 +4743,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Snapchat_cust_traffic' then prevyearvalue else null end ) Snapchat_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4773,7 +4773,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Adwords_cust_traffic' then prevyearvalue else null end ) Adwords_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4803,7 +4803,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Roi_hunter_cust_traffic' then prevyearvalue else null end ) Roi_hunter_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4833,7 +4833,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4863,7 +4863,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4893,7 +4893,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4923,7 +4923,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4953,7 +4953,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -4983,7 +4983,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5013,7 +5013,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5043,7 +5043,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5073,7 +5073,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5103,7 +5103,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='sessions' then prevyearvalue else null end ) sessions_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5133,7 +5133,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5163,7 +5163,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5193,7 +5193,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5223,7 +5223,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5253,7 +5253,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5283,7 +5283,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5313,7 +5313,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5343,7 +5343,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5373,7 +5373,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='newuserssourcemedium' then prevyearvalue else null end ) newuserssourcemedium_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5403,7 +5403,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Rand10_orders' then prevyearvalue else null end ) Rand10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5433,7 +5433,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Satha10_orders' then prevyearvalue else null end ) Satha10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5463,7 +5463,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Wish10_orders' then prevyearvalue else null end ) Wish10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5493,7 +5493,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Rand10_orders' then prevyearvalue else null end ) Rand10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5523,7 +5523,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Satha10_orders' then prevyearvalue else null end ) Satha10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5553,7 +5553,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Wish10_orders' then prevyearvalue else null end ) Wish10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5583,7 +5583,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5613,7 +5613,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5643,7 +5643,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5673,7 +5673,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_created' then prevyearvalue else null end ) orders_created_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5703,7 +5703,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_confirmed' then prevyearvalue else null end ) orders_confirmed_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5733,7 +5733,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_shipped' then prevyearvalue else null end ) orders_shipped_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5763,7 +5763,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_confirmed' then prevyearvalue else null end ) orders_confirmed_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5793,7 +5793,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Yasmine10_orders' then prevyearvalue else null end ) Yasmine10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5823,7 +5823,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Yasmine10_orders' then prevyearvalue else null end ) Yasmine10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5853,7 +5853,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5883,7 +5883,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Fatma10_orders' then prevyearvalue else null end ) Fatma10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5913,7 +5913,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Fatma10_orders' then prevyearvalue else null end ) Fatma10_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5943,7 +5943,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -5973,7 +5973,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='closed_tickets' then prevyearvalue else null end ) closed_tickets_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6003,7 +6003,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_confirmed' then prevyearvalue else null end ) orders_confirmed_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6033,7 +6033,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_shipped' then prevyearvalue else null end ) orders_shipped_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6063,7 +6063,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_delivered' then prevyearvalue else null end ) orders_delivered_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6093,7 +6093,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='orders_delivered' then prevyearvalue else null end ) orders_delivered_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6123,7 +6123,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='shipments' then prevyearvalue else null end ) shipments_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6153,7 +6153,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='missl2u_orders' then prevyearvalue else null end ) missl2u_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6183,7 +6183,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='missl2u_orders' then prevyearvalue else null end ) missl2u_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6213,7 +6213,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6362,7 +6362,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='New_customers' then prevyearvalue else null end ) New_customers_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6392,7 +6392,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Youtube_cust_orders' then prevyearvalue else null end ) Youtube_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6422,7 +6422,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Youtube_cust_orders' then prevyearvalue else null end ) Youtube_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6452,7 +6452,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Tiktok_cust_orders' then prevyearvalue else null end ) Tiktok_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6482,7 +6482,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6512,7 +6512,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6542,7 +6542,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Youtube_cust_traffic' then prevyearvalue else null end ) Youtube_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6572,7 +6572,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Tiktok_cust_traffic' then prevyearvalue else null end ) Tiktok_cust_traffic_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6602,7 +6602,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='num_of_skus' then prevyearvalue else null end ) num_of_skus_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6632,7 +6632,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6662,7 +6662,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='total_item_price_auth' then prevyearvalue else null end ) total_item_price_auth_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6692,7 +6692,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='Tiktok_cust_orders' then prevyearvalue else null end ) Tiktok_cust_orders_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6722,7 +6722,7 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='spend' then prevyearvalue else null end ) spend_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
@@ -6752,12 +6752,12 @@ select Halo_country,date,XTD,Startdate,Enddate,PrevX_Startdate,PrevX_Enddate,Pre
            max(case when KPI='spend' then prevyearvalue else null end ) spend_PrevyearsameX
        
         
-from `noted-computing-279322.halo_1_1_lazurdeksa.fKPIs`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fKPIs`
 group by 1,2,3,4,5,6,7,8,9
 )
        
 
 
 ) ta,
-`noted-computing-279322.halo_1_1_lazurdeksa.refKPI` tb
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refKPI` tb
 where ta.KPI = tb.KPI_VARIABLE

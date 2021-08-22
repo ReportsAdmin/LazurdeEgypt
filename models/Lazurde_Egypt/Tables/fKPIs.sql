@@ -490,7 +490,7 @@ select Halo_Country,date,
               ,
             
         
-                STRUCT('tabby' as Metric, tabby as Data)
+                STRUCT('valu' as Metric, valu as Data)
             
               ,
             
@@ -1450,7 +1450,7 @@ select Halo_Country,date,
         
         ] Metrics_data
         from (
-        select * from `noted-computing-279322.halo_1_1_lazurdeksa.fDailyAgg`)
+        select * from `noted-computing-279322.halo_1_1_lazurdeEgypt.fDailyAgg`)
         )
 cross join
 unnest(Metrics_data) as Metrics_data
@@ -1460,6 +1460,6 @@ group by rollup(Halo_country, KPI, dateyear, datequarter, datemonth, dateweek, d
 and coalesce(date,dateweek,datemonth,datequarter,dateyear) is not null
 ) where week_rno = 1
 ) ta,
-`noted-computing-279322.halo_1_1_lazurdeksa.refKPI` tb
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refKPI` tb
 where ta.KPI = tb.KPI_VARIABLE
 

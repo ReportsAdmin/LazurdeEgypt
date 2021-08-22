@@ -1,5 +1,4 @@
-
-select row_number() over() product_segment_id,product_segment,'Lazurde_KSA' Halo_Country
+select row_number() over() product_segment_id,product_segment,'Lazurde_Egypt' Halo_Country
 from
 (
 select 'Top Selling' product_segment

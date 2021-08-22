@@ -1,4 +1,4 @@
-select *, 'Lazurde_KSA' Halo_Country
+select *, 'Lazurde_Egypt' Halo_Country
 from (
 
 (select e.* except(increment_id) ,
@@ -21,7 +21,7 @@ ifnull(Count (distinct(case when Order_status = 'successful' then order_id else 
 ifnull(sum(case when Order_status = 'successful' then product_quantity else null end ),0) Successful_qty,
 ifnull(Count (distinct(case when Order_status = 'canceled' then order_id else null end )),0) Cancelled_Orders,
 ifnull(sum(case when Order_status = 'canceled' then product_quantity else null end ),0) Cancelled_quantity
-from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders`
 
 group by 1,2,3,4) e
 
@@ -30,8 +30,8 @@ left join
 concat ( ifnull(trim(lower(address.city)),'unknown'),",",'Saudi',"-",address.postcode) else
 concat (address.street,",", ifnull(trim(lower(address.city)),'unknown'),",",'Saudi',"-",address.postcode) end )Address, ord.increment_id,
 concat( ord.customer_firstname," ",  ord.customer_lastname) as Cust_Name, address.telephone as Phone_number
-From `noted-computing-279322.halo_1_1_lazurdeksa.magento_transactionnew` ord
-left join `noted-computing-279322.halo_1_1_lazurdeksa.magento_address` address
+From `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transactionnew` ord
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_address` address
  on ord.entity_id=address.parent_id
 
 
@@ -41,14 +41,14 @@ and e.city = g.city)
 cross join
 (Select Sum(orders)/Count(*) as purchase_freq, count(case when orders > 1 then 1 else null end)/count(*) as repeat_rate, 1- count(case when orders > 1 then 1 else null end)/count(*) as churn_rate from
 (
-Select user_id, count(distinct order_id) as orders, sum(total_item_price) as revenue from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders`
+Select user_id, count(distinct order_id) as orders, sum(total_item_price) as revenue from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders`
 where order_status = 'successful'
 group by 1))
 cross join
 (select spend/unique_cust as CAV
 from
-((Select sum(spend) spend  from `noted-computing-279322.halo_1_1_lazurdeksa.fAdInsights`)
+((Select sum(spend) spend  from `noted-computing-279322.halo_1_1_lazurdeEgypt.fAdInsights`)
 cross join
-(select count (distinct user_id) unique_cust from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders`
+(select count (distinct user_id) unique_cust from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders`
 where order_status = 'successful')))
 )

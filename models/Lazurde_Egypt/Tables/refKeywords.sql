@@ -34,7 +34,7 @@ select *,
 --            case when Type in ('Direct','Offline','Organic','Referral','others') then 'UnPaid'
 --               else 'Paid' end Paid_NonPaid,
 
-              'Lazurde_KSA' Halo_Country,
+              'Lazurde_Egypt' Halo_Country,
               split(source_medium ,'/')[safe_ordinal(1)] ChannelSource,
               split(source_medium ,'/')[safe_ordinal(2)] ChannelMedium,
               CASE When is_google_ad_source=true then 'GoogleCampaign'
@@ -85,14 +85,14 @@ from
 select a.*,case when b.source_medium is null then ('facebook / cpc') else b.source_medium end source_medium
 from(
 (
-select  ad_name keyword,adset_name ad_content, campaign_name from `noted-computing-279322.halo_1_1_lazurdeksa.fFBBaseTable`
+select  ad_name keyword,adset_name ad_content, campaign_name from `noted-computing-279322.halo_1_1_lazurdeEgypt.fFBBaseTable`
 
 ) a
 
 left join
 
 (select  D_ga_keyword keyword,D_ga_adContent ad_content, D_ga_campaign campaign_name, D_ga_sourceMedium source_medium
-from `noted-computing-279322.halo_1_1_lazurdeksa.fGABaseCosts`) b
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fGABaseCosts`) b
 
 on a.keyword=b.keyword and a.ad_content=b.ad_content and a.campaign_name=b.campaign_name
 )
@@ -100,7 +100,7 @@ on a.keyword=b.keyword and a.ad_content=b.ad_content and a.campaign_name=b.campa
 union all
 
 select  D_ga_keyword keyword,D_ga_adContent ad_content, D_ga_campaign campaign_name, D_ga_sourceMedium source_medium
-from `noted-computing-279322.halo_1_1_lazurdeksa.fGABaseCosts`)
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fGABaseCosts`)
 )
 )
 )

@@ -183,7 +183,7 @@ select  Halo_Country,
         sum(Spend) Spend_F,
         sum(Orders) Transactions_F,
         sum(Revenue) Revenue_F
-       from `noted-computing-279322.halo_1_1_lazurdeksa.fDailyAggMarketingFBGoogle`
+       from `noted-computing-279322.halo_1_1_lazurdeEgypt.fDailyAggMarketingFBGoogle`
        where source_medium in ('google / cpc','facebook / cpc','facebook / paid')
 --        and  date_start!=current_date()
        group by 1,2
@@ -196,7 +196,5 @@ group by rollup(Halo_country, KPI, dateyear, datequarter, datemonth, dateweek, d
 and coalesce(date,dateweek,datemonth,datequarter,dateyear) is not null
 ) where week_rno = 1
 ) ta,
-`noted-computing-279322.halo_1_1_lazurdeksa.refKPI` tb
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refKPI` tb
 where ta.KPI = tb.KPI_VARIABLE
-
-

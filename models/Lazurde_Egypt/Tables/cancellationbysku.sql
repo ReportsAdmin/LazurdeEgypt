@@ -14,9 +14,9 @@ from
 (select distinct (ord.product_sku) as SKU, ord.order_date as date_level_1,sum(case when order_status='canceled' then ord.product_quantity end) as cancelled_prod_quantity,ord.product_id as prodid,gallery.picture as pic
 from
 -- main data from A
-((select product_sku, increment_id, product_id,order_status,order_date, product_quantity from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders` as  orders) ord
+((select product_sku, increment_id, product_id,order_status,order_date, product_quantity from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders` as  orders) ord
 left join
-(select Product_id, Image as picture from noted-computing-279322.halo_1_1_lazurdeksa.fProductImage )gallery
+(select Product_id, Image as picture from noted-computing-279322.halo_1_1_lazurdeEgypt.fProductImage )gallery
 on ord.product_id=gallery.Product_id
 )
 
@@ -28,9 +28,9 @@ full outer join
 (select distinct ord.product_sku as SKU, ord.order_date as date_level_1,sum(ord.product_quantity) as successful_prod_quantity,ord.product_id as prodid,gallery.picture
 from
 -- main data from A
-((select product_sku, increment_id, product_id,order_status,order_date, product_quantity from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders` as  orders) ord
+((select product_sku, increment_id, product_id,order_status,order_date, product_quantity from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders` as  orders) ord
 left join
-(select Product_id, Image as picture from noted-computing-279322.halo_1_1_lazurdeksa.fProductImage )gallery
+(select Product_id, Image as picture from noted-computing-279322.halo_1_1_lazurdeEgypt.fProductImage )gallery
 on ord.product_id= gallery.Product_id
 )
 where ord.order_status='successful'
@@ -41,9 +41,9 @@ full outer join
 (select distinct ord.product_sku as SKU, ord.order_date as date_level_1,sum(ord.product_quantity) as allorders_prod_quantity,ord.product_id as prodid,gallery.picture
 from
 -- main data from A
-((select product_sku, increment_id, product_id,order_status,order_date, product_quantity from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders` as  orders) ord
+((select product_sku, increment_id, product_id,order_status,order_date, product_quantity from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders` as  orders) ord
 left join
-(select Product_id, Image as picture from noted-computing-279322.halo_1_1_lazurdeksa.fProductImage )gallery
+(select Product_id, Image as picture from noted-computing-279322.halo_1_1_lazurdeEgypt.fProductImage )gallery
 on ord.product_id= gallery.Product_id
 )
 -- main data between these points A and B

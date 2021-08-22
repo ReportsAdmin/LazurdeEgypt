@@ -1,6 +1,6 @@
 select *,case when Type in ('Direct','Offline','Organic','Referral','others') then 'Non Paid'
               else 'Paid' end Paid_NonPaid,
-              'Lazurde_KSA' Halo_Country
+              'Lazurde_Egypt' Halo_Country
 from 
 (
 select *,case when Publisher in ('Direct') then 'Direct'
@@ -57,7 +57,7 @@ select row_number() over() campaign_id,* ,case when source_medium like '%google%
 from
 (
 select distinct campaign_name,source_medium
-from `noted-computing-279322.halo_1_1_lazurdeksa.refKeywords`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.refKeywords`
 )
 )
 )

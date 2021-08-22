@@ -175,7 +175,7 @@ select Halo_Country,date,
         from (
 select Halo_Country,date_start date,sum(sessions) Sessions_G, sum(Impressions) Impressions_G, sum(Adclickss) Adclicks_G, sum(Addtocarts) Addtocarts_G , sum(Bounces) Bounces_G, sum(Spend) Spend_G,
        sum(Orders) Transactions_G,sum(Revenue) Revenue_G
-       from `noted-computing-279322.halo_1_1_lazurdeksa.fDailyAggMarketingFBGoogle` where source_medium in ('google / cpc')
+       from `noted-computing-279322.halo_1_1_lazurdeEgypt.fDailyAggMarketingFBGoogle` where source_medium in ('google / cpc')
 --                                                                  and  date_start!=current_date()
        group by 1,2
 
@@ -188,5 +188,5 @@ group by rollup(Halo_country, KPI, dateyear, datequarter, datemonth, dateweek, d
 and coalesce(date,dateweek,datemonth,datequarter,dateyear) is not null
 ) where week_rno = 1
 ) ta,
-`noted-computing-279322.halo_1_1_lazurdeksa.refKPI` tb
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refKPI` tb
 where ta.KPI = tb.KPI_VARIABLE

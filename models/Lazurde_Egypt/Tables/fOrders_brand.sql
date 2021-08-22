@@ -1,4 +1,5 @@
-select a.*, ifnull(prd.category,'Not Defined') as Brand, CASE WHEN FARM_FINGERPRINT(lower(user_id)) > 0 THEN CONCAT("A",ABS(FARM_FINGERPRINT(lower(user_id)))) WHEN FARM_FINGERPRINT(lower(user_id)) < 0 THEN CONCAT("B",ABS(FARM_FINGERPRINT(lower(user_id))))
+
+select a.*, ifnull(prd.category, 'Not Defined') as Brand, CASE WHEN FARM_FINGERPRINT(lower(user_id)) > 0 THEN CONCAT("A",ABS(FARM_FINGERPRINT(lower(user_id)))) WHEN FARM_FINGERPRINT(lower(user_id)) < 0 THEN CONCAT("B",ABS(FARM_FINGERPRINT(lower(user_id))))
  END customer_reference_id,
 case when rank() over(partition by user_id,Is_Successful_Order order by order_datetime) = 1 and order_status in ('successful') then 1 else 0 end  is_new_customer
 from
@@ -16,7 +17,7 @@ select ad_cat_id,checkout_type,lower(coupon_code)coupon_code,currency_iso,is_ad_
 
 
 from(
-select cast(product_id as string) product_id,variantid,'Lazurde_KSA' Halo_Country,
+select cast(product_id as string) product_id,variantid,'Lazurde_Egypt' Halo_Country,
 * except(product_id,variantid)
 from(
 select
@@ -116,25 +117,25 @@ address.country_id,
 
 --
 user_id.user_info as userid
-from `noted-computing-279322.halo_1_1_lazurdeksa.magento_transaction` as ord
-left join `noted-computing-279322.halo_1_1_lazurdeksa.magento_transaction_details` item
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transaction` as ord
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transaction_details` item
 on ord.entity_id=item.order_id
-left join `noted-computing-279322.halo_1_1_lazurdeksa.refOrderStatus` os
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.refOrderStatus` os
 on ord.status=os.orderstatus
-left join `noted-computing-279322.halo_1_1_lazurdeksa.magento_payment` pay
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_payment` pay
 on ord.entity_id=pay.parent_id
 
 -- left join
--- `noted-computing-279322.halo_1_1_lazurdeksa.refProducts` pro
+-- `noted-computing-279322.halo_1_1_lazurdeEgypt.refProducts` pro
 -- on cast(item.product_id as string)=pro.product_id
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.refUsers` user_id
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refUsers` user_id
 on ord.customer_email=user_id.user_info
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.magento_orderhist` stathist
+`noted-computing-279322.halo_1_1_lazurdeEgypt.magento_orderhist` stathist
 on ord.entity_id=stathist.parent_id
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.magento_address` address
+`noted-computing-279322.halo_1_1_lazurdeEgypt.magento_address` address
 on ord.entity_id=address.parent_id
 )
 
@@ -146,7 +147,7 @@ on ord.entity_id=address.parent_id
 where product_price>=0
 ) st
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.fGATransactions` ga
+`noted-computing-279322.halo_1_1_lazurdeEgypt.fGATransactions` ga
 on st.increment_id= ga.order_id
 left join
 `noted-computing-279322.halo_1_1.refExchangerate` ex
@@ -159,10 +160,10 @@ on st.country_id=country.CountryCode
 )
 )forders1
 left join
-(select distinct lower(code) as influencerscode from `noted-computing-279322.halo_1_1_lazurdeksa.magento_influencerscode` where Currency = 'SAR')coupon
+(select distinct lower(code) as influencerscode from `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_influencerscode` where Currency = 'SAR')coupon
 on forders1.coupon_code=coupon.influencerscode)where order_date > '2020-05-05' )
 ) a
 -- ))
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.fproducts` prd
+`noted-computing-279322.halo_1_1_lazurdeEgypt.fproducts` prd
 on  a.product_id = cast(prd.product_id as string)

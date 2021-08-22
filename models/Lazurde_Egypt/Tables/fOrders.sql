@@ -16,7 +16,7 @@ select ad_cat_id,checkout_type,lower(coupon_code)coupon_code,currency_iso,is_ad_
 
 
 from(
-select cast(product_id as string) product_id,variantid,'Lazurde_KSA' Halo_Country,
+select cast(product_id as string) product_id,variantid,'Lazurde_Egypt' Halo_Country,
 * except(product_id,variantid)
 from(
 select
@@ -45,12 +45,12 @@ select * except(ranki),
       case when rank() over(partition by user_id,Is_Successful_Order order by order_datetime) = 1 and order_status in ('successful') then 1 else 0 end  is_new_customer1
 from(
 select *,
-            (case when base_row_total_incl_tax > 0 then
+          (case when base_row_total_incl_tax > 0 then
       base_row_total_incl_tax-base_discount_amount_item +
       ((shipping_amt)/(qty_ordered_item))*product_quantity else 0 end)
 --       - (case when gift_card_amount <> 0 then (base_row_total_incl_tax/subtotal_incl_tax)*(-1*gift_card_amount) else 0 end)
        as total_item_price,
-		(case when base_row_total_incl_tax > 0  then ((shipping_amt)/(qty_ordered_item))*product_quantity else 0 end) as shipping_amnt,
+(case when base_row_total_incl_tax > 0 then ((shipping_amt)/(qty_ordered_item))*product_quantity else 0 end) as shipping_amnt,
        (cast(base_grand_total as float64)+ cast(total_store_credit_amount as float64)) as Overall_Revenue
 from (
 select *,
@@ -70,6 +70,7 @@ ord.coupon_code,
 ord.customer_id,
 
 ord.base_discount_amount,
+--   ord.gift_card_amount,
 cast(ord.base_grand_total as float64) as base_grand_total,
 ord.increment_id,
 lower(ord.customer_email) user_id,
@@ -122,36 +123,36 @@ address.country_id,
 
 --
 user_id.user_info as userid
-from `noted-computing-279322.halo_1_1_lazurdeksa.magento_transaction` as ord
-left join `noted-computing-279322.halo_1_1_lazurdeksa.magento_transaction_details` item
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transaction` as ord
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transaction_details` item
 on ord.entity_id=item.order_id
-left join `noted-computing-279322.halo_1_1_lazurdeksa.refOrderStatus` os
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.refOrderStatus` os
 on ord.status=os.orderstatus
-left join `noted-computing-279322.halo_1_1_lazurdeksa.magento_payment` pay
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_payment` pay
 on ord.entity_id=pay.parent_id
 left join (select order_id, sum(case when base_row_total_incl_tax > 0 then qty_ordered end) as qty_ordered_item from
-`noted-computing-279322.halo_1_1_lazurdeksa.magento_transaction_details`
+`noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transaction_details`
 -- where order_id = 2694
 group by 1
  )item1
 on ord.entity_id=item1.order_id
 
 -- left join
--- `noted-computing-279322.halo_1_1_lazurdeksa.refProducts` pro
+-- `noted-computing-279322.halo_1_1_lazurdeEgypt.refProducts` pro
 -- on cast(item.product_id as string)=pro.product_id
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.refUsers` user_id
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refUsers` user_id
 on ord.customer_email=user_id.user_info
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.magento_orderhist` stathist
+`noted-computing-279322.halo_1_1_lazurdeEgypt.magento_orderhist` stathist
 on ord.entity_id=stathist.parent_id
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.magento_address` address
+`noted-computing-279322.halo_1_1_lazurdeEgypt.magento_address` address
 on ord.entity_id=address.parent_id
 ))))) where product_price>=0
 ) st
 left join
-`noted-computing-279322.halo_1_1_lazurdeksa.fGATransactions` ga
+`noted-computing-279322.halo_1_1_lazurdeEgypt.fGATransactions` ga
 on st.increment_id= ga.order_id
 left join
 `noted-computing-279322.halo_1_1.refExchangerate` ex
@@ -161,6 +162,6 @@ left join
 on st.country_id=country.CountryCode
 ))))forders1
 left join
-(select distinct lower(code) as influencerscode from `noted-computing-279322.halo_1_1_lazurdeksa.magento_influencerscode` where Currency = 'SAR')coupon
+(select distinct lower(code) as influencerscode from `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_influencerscode` where Currency = 'EGP')coupon
 on forders1.coupon_code=coupon.influencerscode)where order_date > '2020-05-05' )
 )
