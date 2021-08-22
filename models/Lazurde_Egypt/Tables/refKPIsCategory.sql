@@ -1,4 +1,4 @@
-select *,'Lazurde_KSA' Halo_Country from
+select *,'Lazurde_Egypt' Halo_Country from
 (
        
                 select
@@ -2684,19 +2684,10 @@ select *,'Lazurde_KSA' Halo_Country from
             
         
                 select
-                7010 KPI_ID,
-                'Operations KPIs (Logistics)' KPI_CATEGORY,
-                'N' KPI_HIDE,
-                18 KPI_SNO
-            
-                union all
-            
-        
-                select
                 1540 KPI_ID,
                 'Operations KPIs (Logistics)' KPI_CATEGORY,
                 'N' KPI_HIDE,
-                19 KPI_SNO
+                18 KPI_SNO
             
                 union all
             

@@ -12,9 +12,9 @@ ifnull(successful_customers,0) successful_customers,
 from
 (
 select distinct date,lower(trim(code)) code
-from `noted-computing-279322.halo_1_1_lazurdeksa.Calendar`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.Calendar`
 cross join
-`noted-computing-279322.halo_1_1_lazurdeksa.magento_affiliate_marketing`) a
+`noted-computing-279322.halo_1_1_lazurdeEgypt.magento_affiliate_marketing`) a
 left join
 (
 select lower(trim(code)) as coupon,order_date,count(distinct increment_id) as overall_orders,sum(total_item_price) as overall_revenue,
@@ -24,8 +24,8 @@ sum(case when order_status = 'successful' then total_item_price end) as successf
 sum(case when order_status = 'successful' then product_quantity end) as successful_qty_sold,
 count(distinct lower(user_id)) as overall_customers,
 count(distinct case when order_status = 'successful' then lower(user_id) end) as successful_customers,
-from `noted-computing-279322.halo_1_1_lazurdeksa.magento_affiliate_marketing` x
-left join `noted-computing-279322.halo_1_1_lazurdeksa.fOrders` y
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_affiliate_marketing` x
+left join `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders` y
 on lower(trim(x.code)) = lower(trim(y.coupon_code))
 group by 1,2) b
 on a.code = b.coupon

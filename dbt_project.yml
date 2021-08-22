@@ -2,18 +2,18 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'Lazurde_KSA'
+name: 'Lazurde_Egypt'
 version: '1.0.0'
 config-version: 2
 
 vars:
-    project: Lazurde_KSA
-    project_dataset: noted-computing-279322.halo_1_1_lazurdeksatest
+    project: Lazurde_Egypt
+    project_dataset: noted-computing-279322.halo_1_1_lazurdeegypttest
     
-    Country: ('Lazurde_KSA')
+    Country: ('Lazurde_Egypt')
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'Lazurde_KSA'
+profile: 'Lazurde_Egypt'
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
@@ -37,9 +37,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  Lazurde_KSA:
+  Lazurde_Egypt:
   #give the project name used on the top
-    Lazurde_KSA:
+    Lazurde_Egypt:
       +full_refresh: true
         # Applies to all files under models/example/
       Tables:

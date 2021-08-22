@@ -1,4 +1,4 @@
-select row_number() over() disc_cat_id,disc_cat,'Lazurde_KSA' Halo_Country
+select row_number() over() disc_cat_id,disc_cat,'Lazurde_Egypt' Halo_Country
 from
 (
 select 'no_promo' disc_cat

@@ -1,5 +1,5 @@
 
-select a.product_id,a.date_start,a.date_stop,b.product_segment_id,'Lazurde_KSA' Halo_Country
+select a.product_id,a.date_start,a.date_stop,b.product_segment_id,'Lazurde_Egypt' Halo_Country
 from
 (select product_id,case when Percentile_Orders =10 then 'Top Selling'
                        when Percentile_Impressions=2 and Percentile_CTR=1 and Percentile_CDR=1 and Percentile_BDR=1 then 'Unpopular'
@@ -35,11 +35,11 @@ from
 (
 select product_id,sum(impressions) Impressions,sum(clicks) clicks,sum(productdetail_views) Productdetail_views,
        sum(Addstocart) Addstocart,sum(orders) orders,min(date_start) date_start,max(date_start) date_stop
-from `noted-computing-279322.halo_1_1_lazurdeksa.fProductInsights`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fProductInsights`
 group by product_id
 )
 --where impressions!=0 and Productdetail_views!=0
 )
 )) a,
-`noted-computing-279322.halo_1_1_lazurdeksa.refProductSegments` b
+`noted-computing-279322.halo_1_1_lazurdeEgypt.refProductSegments` b
 where a.productsegments = b.product_segment

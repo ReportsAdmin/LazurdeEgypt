@@ -1,4 +1,4 @@
-(select * ,'Lazurde_KSA' Halo_Country,
+(select * ,'Lazurde_Egypt' Halo_Country,
        concat(format_date('%d %b %y',Startdate),' - ',format_date('%d %b %y',Startdate + 6)) DateRange
 
 from
@@ -67,11 +67,11 @@ from
 
 (select product_id,category_L2,product_title,product_sku,date,week,year,FORMAT_DATE('%Y-%W', b.date) dateweek
 from
-(select distinct product_id,category_L2,product_title,product_sku from `noted-computing-279322.halo_1_1_lazurdeksa.fProductInsightsextended`) a, `noted-computing-279322.halo_1_1_lazurdeksa.Calendar` b ) p
+(select distinct product_id,category_L2,product_title,product_sku from `noted-computing-279322.halo_1_1_lazurdeEgypt.fProductInsightsextended`) a, `noted-computing-279322.halo_1_1_lazurdeEgypt.Calendar` b ) p
 
 left join
 
-`noted-computing-279322.halo_1_1_lazurdeksa.fProductInsightsextended` q
+`noted-computing-279322.halo_1_1_lazurdeEgypt.fProductInsightsextended` q
 on p.product_id=q.product_id and p.date=q.date_start
 and p.product_sku = q.product_sku
 and p.category_L2 = q.category_L2

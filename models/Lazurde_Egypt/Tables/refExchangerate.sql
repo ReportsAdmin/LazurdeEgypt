@@ -5,12 +5,12 @@ case when base_currency_code is null then  'USD' else base_currency_code end as 
 row_number() over(partition by date  order by date )ranki
 from
 (select *
-from `noted-computing-279322.halo_1_1_lazurdeksa.Calendar`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.Calendar`
 order by 1 asc) b
 left join
 
 (select distinct base_to_order_rate exchange_rate,base_currency_code,order_currency_code, extract(date from created_at) ord_date
-from `noted-computing-279322.halo_1_1_lazurdeksa.magento_transaction`
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.magento_transaction`
 where created_at >= '2013-01-01' and order_currency_code = 'INR' order by ord_date ) a
 
 on b.Date=a.ord_date)

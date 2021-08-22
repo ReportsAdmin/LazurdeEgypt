@@ -6,7 +6,7 @@ from
 
 
 (select source_medium,date date_start,Halo_Country
- from `noted-computing-279322.halo_1_1_lazurdeksa.Calendar` a,(select distinct source_medium from `noted-computing-279322.halo_1_1_lazurdeksa.refKeywords` ) b
+ from `noted-computing-279322.halo_1_1_lazurdeEgypt.Calendar` a,(select distinct source_medium from `noted-computing-279322.halo_1_1_lazurdeEgypt.refKeywords` ) b
  ) cal
     
  left join
@@ -16,7 +16,7 @@ from
         sum(Addtocarts) Addtocarts,sum(Bounces) Bounces
 from (
 select a.*,b.source_medium,(a.bounceRate * a.sessions)/100 Bounces
-from `noted-computing-279322.halo_1_1_lazurdeksa.fUAInsights` a, `noted-computing-279322.halo_1_1_lazurdeksa.refKeywords` b
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fUAInsights` a, `noted-computing-279322.halo_1_1_lazurdeEgypt.refKeywords` b
 where a.ad_cat_id=b.ad_cat_id
 )
 group by 1,2,3) a
@@ -28,7 +28,7 @@ left  join
 (select date_start,source_medium,Halo_Country,sum(spend) spend,sum(Impressions) Impressions,sum(clicks) Adclickss
 from(
 select a.*,b.source_medium
-from `noted-computing-279322.halo_1_1_lazurdeksa.fAdInsights` a, `noted-computing-279322.halo_1_1_lazurdeksa.refKeywords` b
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fAdInsights` a, `noted-computing-279322.halo_1_1_lazurdeEgypt.refKeywords` b
 where a.ad_cat_id=b.ad_cat_id
 )
 group by 1,2,3) b
@@ -39,7 +39,7 @@ left join
 (select order_date,source_medium,Halo_Country,count(distinct order_id) Orders,sum(total_item_price) Revenue
 from(
 select a.*,b.source_medium
-from `noted-computing-279322.halo_1_1_lazurdeksa.fOrders` a, `noted-computing-279322.halo_1_1_lazurdeksa.refKeywords` b
+from `noted-computing-279322.halo_1_1_lazurdeEgypt.fOrders` a, `noted-computing-279322.halo_1_1_lazurdeEgypt.refKeywords` b
 where a.ad_cat_id=b.ad_cat_id
 )
 where is_successful_order=true

@@ -16,7 +16,7 @@ FROM (SELECT *
 FROM `noted-computing-279322.MissL1.Lazurde_lazurde_live_sales_order`))
 where lower(status) in ('complete','processing','payfort_fort_new','processing_confirmed','processing_shipped',
 'closed','pending') or lower(status) like '%delivered%')
-where store_id in (1,2)
+where store_id in (3,4)
 )a
 left join
 (select distinct increment_id as incrementid,customer_contacted,payfort_paid from
